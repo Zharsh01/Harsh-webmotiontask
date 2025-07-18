@@ -331,7 +331,7 @@ header.header {
     max-height: 100%;
   }
   .main-page section.tab_section {
-    padding-left: 16px;
+    padding: 16px;
   }
   .main-page header.header {
     padding: 16px;
