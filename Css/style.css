@@ -365,4 +365,8 @@ header.header {
     font-size: 16px;
     line-height: 20px;
   }
+  .main-page .tab_section ul#mainTab {
+    padding-left: 14px;
+    border-radius: 0px;
+  }
 }
