@@ -1,0 +1,368 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-page {
+  background-color: #227cd0;
+  font-family: "Inter", sans-serif;
+}
+header.header {
+  padding: 16px 52px 16px 18px;
+}
+.tab_container .container-fluid {
+  padding: 28px 26px;
+}
+.main-page .profile-card .img_part {
+  width: 100%;
+  max-width: 100px;
+}
+
+.main-page .profile-card img {
+  width: 100%;
+}
+.main-page .toggle-menu {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  width: 20px;
+  height: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.main-page .toggle-menu span {
+  display: block;
+  height: 2px;
+  width: 100%;
+  border-radius: 2px;
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+}
+.main-page .toggle-menu.open span:nth-child(1) {
+  transform: rotate(45deg) translate(2px, 2px);
+}
+.main-page .toggle-menu.open span:nth-child(2) {
+  opacity: 0;
+}
+.main-page .toggle-menu.open span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+.main-page .menu_list p {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+}
+.main-page .menu_list {
+  padding-right: 37%;
+}
+.main-page .icons {
+  gap: 30px;
+}
+.main-page .center_part a,
+.main-page .name_text a {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.main-page .profile-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 24px;
+}
+.main-page .dropdown-tabs .dropdown-toggle {
+  width: 100%;
+  color: #bfbfbf;
+  background-color: white;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 700;
+  border-radius: 0;
+}
+.main-page .dropdown-tabs div:nth-child(1) button {
+  background-color: #227cd0;
+  color: #ffffff;
+  border-radius: 10px 0px 0px 10px;
+}
+.main-page .dropdown-tabs div:nth-child(6) button {
+  border-radius: 0px 10px 10px 0px;
+}
+.main-page .dropdown-tabs div:nth-child(2) button {
+  background-color: #185d9d;
+  color: #ffffff;
+}
+.main-page .dropdown-tabs div:nth-child(3) button {
+  background-color: #599cdb;
+  color: #ffffff;
+}
+.main-page .btn-outline {
+  border-radius: 10px;
+  background: linear-gradient(0deg, #f4f6fa, #f4f6fa),
+    linear-gradient(0deg, rgba(244, 246, 250, 0.2), rgba(244, 246, 250, 0.2));
+  padding: 7px 12px;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.main-page .breadcrumb {
+  background: transparent;
+  margin-bottom: 0;
+  gap: 12px;
+}
+.main-page .breadcrumb p,
+.main-page .breadcrumb .list_item {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 700;
+}
+.main-page .tab-content-section {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.main-page .tab-pane h6 {
+  font-weight: 600;
+}
+
+.main-page .rounded-status {
+  border-radius: 50px;
+  padding: 5px 12px;
+}
+
+.main-page .btn-circle {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.main-page .scroll-section {
+  max-height: 678px;
+  overflow-y: auto;
+}
+.main-page .tab_section .tab_container .tab-content {
+  background: linear-gradient(0deg, #f4f6fa, #f4f6fa),
+    linear-gradient(0deg, rgba(244, 246, 250, 0.2), rgba(244, 246, 250, 0.2));
+}
+.main-page section.tab_section {
+  padding-left: 2.7%;
+}
+.main-page .tab_section ul#mainTab {
+  padding-top: 14px;
+  padding-left: 28px;
+  background: #e6e6e6;
+  border-radius: 25px 0px 0px;
+  border: 0px;
+  gap: 24px;
+}
+.main-page .tab_section ul#mainTab .nav-link {
+  padding: 0px;
+  background: none;
+  padding-bottom: 18px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #808080;
+}
+.tab_section ul#mainTab .nav-link.active,
+.tab_section ul#mainTab .nav-link.active:hover {
+  color: black;
+  border-color: #e6e6e6;
+  border-bottom: 2px solid #227cd0;
+}
+.tab_section ul#mainTab .nav-link:hover {
+  border-color: #e6e6e6;
+}
+.tab_container nav {
+  padding: 12px 0px 12px 28px;
+  background: white;
+}
+.main-page .profile-card h6 {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+}
+.main-page .profile-card small {
+  font-size: 12px;
+  line-height: 16px;
+  color: #404040;
+  padding: 10px 12px;
+  font-weight: 700;
+  background: linear-gradient(0deg, #f4f6fa, #f4f6fa),
+    linear-gradient(0deg, rgba(244, 246, 250, 0.2), rgba(244, 246, 250, 0.2));
+  border-radius: 10px;
+}
+.main-page .content_name p,
+.main-page .desc_name p {
+  margin: 0px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #404040;
+}
+.main-page .content_name strong,
+.main-page .desc_name strong {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.main-page .profile-card button.time {
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: #227cd0;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.main-page .file h6 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #227cd0;
+}
+.main-page span.submited {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 700;
+  padding: 6px 10px;
+  border-radius: 10px;
+  background: #a2d729;
+  color: white;
+}
+.main-page span.tags_name {
+  background: linear-gradient(0deg, #f4f6fa, #f4f6fa),
+    linear-gradient(0deg, rgba(244, 246, 250, 0.2), rgba(244, 246, 250, 0.2));
+  padding: 10px 12px;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 10px;
+}
+.main-page .tabview_part {
+  margin-top: 24px;
+}
+.main-page .tabview_part .tab-content > .active {
+  background: white;
+  margin-top: -1px;
+}
+
+.main-page .tabview_part ul#myTab .nav-link:hover {
+  border: 1px solid #f4f6fa;
+  border: 0px;
+}
+.tabview_part ul#myTab .nav-link,
+.tabview_part ul#myTab .nav-link.active:hover,
+.tabview_part ul#myTab .nav-link.active,
+.tabview_part ul#myTab {
+  border: 0px;
+}
+.tabview_part ul#myTab .nav-link {
+  font-size: 14px;
+  line-height: 18px;
+  color: #808080;
+  padding: 14px 24px;
+}
+.tabview_part ul#myTab .nav-link.active {
+  color: #227cd0;
+}
+.main-page .tabview_part h3 {
+  font-size: 20px;
+  line-height: 24px;
+  color: #227cd0;
+  font-weight: 600;
+}
+.tabview_part .heading h5 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.tabview_part .tab-pane {
+  max-height: 703px;
+  overflow: scroll;
+}
+@media (max-width: 1700px) {
+  .main-page .profile-card button.time {
+    padding: 10px 5px;
+  }
+  .main-page .profile-card .img_part {
+    max-width: 58px;
+  }
+  .main-page .tabview_part .tab-pane {
+    max-height: 668px;
+  }
+}
+@media (max-width: 1440px) {
+  .main-page .profile-card {
+    padding: 15px;
+  }
+
+  .main-page .profile-card h6 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .main-page .tabview_part .tab-pane {
+    max-height: 856px;
+  }
+  .main-page .tabview_part h3 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .main-page .tabview_part .heading h5 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .main-page .menu_list {
+    padding-right: 10px;
+  }
+  .main-page .icons {
+    gap: 10px;
+  }
+}
+@media (max-width: 576px) {
+  .main-page .tab_container .container-fluid {
+    padding: 16px;
+  }
+  .main-page .tabview_part .tab-pane {
+    max-height: 100%;
+  }
+  .main-page section.tab_section {
+    padding-left: 16px;
+  }
+  .main-page header.header {
+    padding: 16px;
+  }
+  .main-page .center_part a,
+  .main-page .name_text a,
+  .main-page .menu_list p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .main-page .left_part img {
+    width: 16px;
+  }
+  .main-page .tab_section ul#mainTab {
+    gap: 10px;
+  }
+  .main-page .content_name strong,
+  .main-page .content_name strong,
+  .main-page .desc_name strong {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .main-page .content_name p,
+  .main-page .desc_name p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .main-page .tabview_part h3,
+  .main-page .tabview_part .heading h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
